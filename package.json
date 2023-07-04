@@ -1,0 +1,33 @@
+{
+  "name": "caffeine-flow",
+  "version": "1.0.0",
+  "description": "A discord bot that will accompany you to be more productive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js",
+    "once": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivantrywicaksono/caffeine-flow.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "ivantrywicaksono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivantrywicaksono/caffeine-flow/issues"
+  },
+  "homepage": "https://github.com/ivantrywicaksono/caffeine-flow#readme",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "eslint": "^8.44.0",
+    "nodemon": "^2.0.22"
+  }
+}
